@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>My First Website</title>
+<style>
+body{
+background-color:purple;
+font:arial;
+padding:20px
+}
+h1{
+color:blue;
+}
+h2{
+color:yellow;
+}
+</style>
+</head>
+<body>
+<h1>MERCY MUNYAO</h1>
+<h2>Web Developer</h2>
+<h2>MY SKILLS</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<h2>MY PROJECTS</h2>
+<p>Personal Website</p>
+<h2>Contact Me</h2>
+<input type="text"id="name"placeholder="Your name">
+<br><br>
+<button onclick= "send message()">Send</button>
+<p id="response"></p>
+
+<script>
+function send message(){
+var name=document.getElementById("name").value;
+
+document.getElementId("response").innerText="Thank You"+name+"Message Delivered!";
+}
+</script>
+<hr>
+<p>@2026mercymunyao</p>
+</body>
+</html>
